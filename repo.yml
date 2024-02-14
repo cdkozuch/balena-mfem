@@ -1,0 +1,4 @@
+type: generic
+upstream:
+  - repo: balena-mfem
+    url: https://github.com/cdkozuch/balena-mfem
