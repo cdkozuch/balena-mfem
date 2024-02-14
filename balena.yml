@@ -1,0 +1,19 @@
+name: "balena-mfem"
+type: "sw.application"
+version: 2024.1.0
+description: "MFEM is a free, lightweight, scalable C++ library for finite element methods."
+assets:
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/cdkozuch/balena-mfem"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://mfem.org/img/gallery/logo2-full.png"
+data:
+  defaultDeviceType: generic-amd64
+  supportedDeviceTypes:
+    - generic-amd64
+    - genericx86-64-ext
+    - intel-nuc
