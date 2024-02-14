@@ -1,2 +1,2 @@
-FROM spack/spack/centos-stream:latest
+FROM spack/centos-stream:latest
 CMD [ "spack", "install", "-v", "--test=all", "mfem" ]
